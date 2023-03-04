@@ -408,17 +408,14 @@ a {
     align-items: center;
     list-style: none;
     gap: 08px;
-    
+    padding-bottom: 56px;
     }
 
 /*------------------Productos de protafolio--------------------------------*/
 .products-portfolio{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;  
+    gap: 30px; 
 }
 .product{
     flex-basis: calc((100% - 60px) / 3);
