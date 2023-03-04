@@ -60,11 +60,8 @@ a {
     margin:0 auto; 
 }
 .section{
-    padding-bottom: 94px;
-}
-
-.pt-94{
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* ----------------HEADER---------------------------*/
@@ -183,7 +180,7 @@ a {
 /*------------MAIN------------------------*/
 /*------------Titulo Principal----------------*/
 
-.principal-title{
+.hero-title{
     color: var(--color-texto-terceario);
     width: 696px;
     font-weight: 900;
@@ -193,12 +190,12 @@ a {
     letter-spacing: 0.06em;
     margin-left:auto;
     margin-right: auto;
-    padding-top: 106px;
+   
 }
 
 /*---------Botón principal------------------------------------*/
 
-.principal-button{
+.hero-button{
     color: var(--color-texto-terceario);
     background-color: var(--background-color-principal);
     font-family: "Roboto";
@@ -215,18 +212,17 @@ a {
     border-radius: 4px; 
     
 }
-.principal-button:hover, 
-.principal-button:focus{
+.hero-button:hover, 
+.hero-button:focus{
     color: var(--color-texto-principal);
 }
 /*--------Flex Título y Botón principal------------------*/
 
-.section-title{
+.hero{
     color: var(--color-texto-terceario);
     background-color: #2F303A;
     text-align: center;
-    height: 600px;
-    left: -4px;
+    padding: 200px 0;
 }
 
 /*-------Sección de beneficios y servicios--------------------------------*/
@@ -245,23 +241,22 @@ a {
     margin-top: 19px;
 }
 
-.benefist{
-    margin-top: 95.35px;
-}
-
 /*-------------Servicios----------------*/
 .h3{
+    font-family: "Roboto";
+    font-style: bond;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.18;
-    margin-top: 30px;
+    margin-bottom: 10px;
+    
 }
 .paragraph-second{
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    text-align: center;
 }
 /*------Flex contenedor de servicios*/
 .title-service{
@@ -269,30 +264,26 @@ a {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    margin-bottom: 30px;
 }
-.img-service{
-    padding-top: 55.05px;   
-}
-
 .seccion-team{
     background-color: #F5F4FA;
-}
-.title-team{
-    padding-top: 94px;
 }
 .team-service{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
     gap: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 30px;    
 }
-
 .person-rol{
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.team-member {
+    padding: 30px;
+   
 }
 
 /* --------FOOTER------*/
@@ -312,10 +303,8 @@ a {
     color: var(--color-texto-terceario);
     width: 231px;
     height: 21px;
-    left: 215px;
-    top: 2258px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 .footer-link{
     color: rgba(255, 255, 255, 0.6);
@@ -419,7 +408,7 @@ a {
     align-items: center;
     list-style: none;
     gap: 08px;
-    margin-top: 94px;
+    
     }
 
 /*------------------Productos de protafolio--------------------------------*/
@@ -441,14 +430,17 @@ a {
     border-radius: 4px; 
 }
 .title-h3{
-    padding-top: 30px;
-    padding-left: 24px;
-    padding-right: 24px;
+    font-size: 18px;
+    width: 322px;
+  
 }
 .paragraph-portfolio{
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 20px;
+    font-size: 16px;
+    width: 322px;
+    height: 30px;
+}
+.reading-port{
+    padding: 20px 24px;
 }
 
 
